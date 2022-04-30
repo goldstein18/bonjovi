@@ -420,5 +420,64 @@ ol li {
     margin-top:50px;
     margin-bottom:50px;
 }
+
+/* ==== CONTACTO ==== */
+.map-container {
+    width:90%;
+    display:flex;
+    flex-direction: column;
+    justify-content: space-between;
+    margin: 0 auto;
+  
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+.contacto-title {
+    margin-top:50px;
+    text-align: center;
+}
+
+.map-text {
+    width:90%;
+    display:flex;
+    flex-direction: column;
+  
+    justify-content: center;
+}
+
+.map-text p {
+    margin-bottom:50px;
+}
+
+
+/* ====== NAV BAR ==== */
+nav {
+ 
+    width:50%;
+}
+
+nav ul {
+
+    display:flex;
+    list-style: none;
+    flex-direction: column;
+    justify-content: space-between;
+  
+}
+
+
+nav ul li a{
+    color:white;
+    list-style: none;
+   text-decoration: none;
+    }
+    
+
+nav ul li a:hover {
+color:gray;
+cursor: pointer;
+}
+
+
     
 }
