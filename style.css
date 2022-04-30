@@ -1,0 +1,424 @@
+* {
+    margin:0;
+    padding:0;
+    font-family: Arial;
+}
+
+header {
+    width:100%;
+    background-color: black;
+    color:white;
+    padding: 20px 0px;
+    border-bottom:3px solid gray;
+ 
+}
+
+.container {
+    width: 100%;
+     margin: 0 auto;
+}
+
+.container-nav {
+  display:flex;
+  justify-content: space-around;
+}
+
+.title {
+    width: 30%;
+    
+}
+
+.hero-image {
+    margin: 0 auto;
+  display: flex;
+  width: 100%;
+}
+nav {
+ 
+    width:50%;
+}
+
+nav ul {
+
+    display:flex;
+    list-style: none;
+    flex-direction: row;
+    justify-content: space-between;
+  
+}
+
+
+nav ul li a{
+    color:white;
+    list-style: none;
+   text-decoration: none;
+    }
+    
+
+nav ul li a:hover {
+color:gray;
+cursor: pointer;
+}
+
+
+.hero-title {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-size: 48px;
+}
+
+.hero-des {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, 50%);
+    font-size: 48px;
+    font-size: 15px;
+}
+
+.hero {
+    position: relative;
+    text-align: center;
+    color: white;
+}
+.container {
+    width:90%;
+    margin: 0 auto;
+    
+}
+
+.container-content {
+    width:70%;
+    margin: 0 auto;
+}
+.two-columns {
+ 
+    display:flex;
+    flex-direction: row;
+    justify-content: space-around;
+    margin:0 auto;
+    margin-top:30px;
+    margin-bottom:50px;
+   
+    
+    
+}
+
+.two-columns img {
+    
+    width: 50%;
+}
+
+.column-text {
+    
+    width:50%;
+    display:flex;
+    flex-direction: column;
+    margin-left: 30px;
+    
+    
+}
+
+.column-text h4 {
+    margin-bottom:20px;
+}
+
+.column-text p {
+    text-align: justify;
+}
+
+
+/* ============== DISCOGRAFÍA ============= */
+
+
+.container-discos {
+    width: 90%;
+    
+    margin: 0 auto;
+    margin-top:50px;
+    text-align: center;
+    
+   
+}
+
+.columnas {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    flex-wrap: nowrap;
+}
+
+.columna {
+    width:20%;
+    margin-left:25px;
+}
+
+.columna img {
+width:50%;
+
+}
+.columna p {
+    margin-bottom:20px;
+    font-weight: bolder;
+}
+
+ol li {
+    text-align: left;
+}
+
+
+/* ====== VIDEOS ===== */
+
+.video-container {
+    display:flex;
+    flex-direction: row;
+    width:90%;
+    justify-content: space-between;
+    margin:0 auto;
+    text-align: center;
+    align-items: center;
+    margin-top:25px;
+}
+
+.video-container video {
+    width:300px;
+
+}
+
+.video-title {
+    margin-top:25px;
+    text-align: center;
+}
+
+/* ====== GAlERÍA ==== */
+.container-galeria {
+    width:90%;
+    margin: 0 auto;
+    text-align: center;
+
+}
+
+.row {
+    display:flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+  
+    margin-bottom:50px;
+    
+}
+
+.row img {
+    width: 350px;
+    height: 200px;
+   
+    
+
+}
+
+.galeria-title {
+    text-align: center;
+    margin-top:50px;
+    margin-bottom:50px;
+}
+
+/* ===== CONTACTO ==== */
+
+.map-container {
+    width:90%;
+    display:flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin: 0 auto;
+  
+    margin-top:50px;
+}
+.contacto-title {
+    margin-top:50px;
+    text-align: center;
+}
+
+.map-text {
+    width:50%;
+    display:flex;
+    flex-direction: column;
+  
+    justify-content: center;
+}
+
+.map-text p {
+    margin-bottom:50px;
+}
+
+@media (max-width:700px){
+    .columnas {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        flex-wrap: nowrap;
+        margin-bottom: 100px;
+    }
+    .columna {
+        width:90%;
+       
+    }
+    
+    .columna img {
+        margin-top:40px;
+    width:90%;
+    
+    }
+    .columna p {
+        margin-bottom:40px;
+        font-weight: bolder;
+       
+    }
+    
+    ol li {
+        text-align: left;
+       
+    }
+
+    /* ====== INDEX ===== */
+    .hero {
+        position: relative;
+        text-align: center;
+        color: white;
+        
+    }
+    .container {
+        width:90%;
+        margin: 0 auto;
+        
+    }
+    .hero-title {
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -250%);
+        font-size: 28px;
+    }
+    
+    .hero-des {
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        font-size: 12px;
+        width:90%;
+        
+    }
+    
+   
+    
+    .container-content {
+        width:90%;
+        margin: 0 auto;
+    }
+    .two-columns {
+     
+       display: flex;
+       flex-direction: column;
+       margin:0 auto;
+       margin-top:50px;
+       justify-content: center;
+       align-items: center;
+      
+      
+ 
+        
+        
+    }
+    
+    .two-columns img {
+        margin-bottom: 50px;
+     
+    }
+    
+    .column-text {
+        
+        width:90%;
+        display:flex;
+        flex-direction: column;
+        margin-left: 30px;
+        
+        
+    }
+    
+    .column-text h4 {
+        margin-bottom:20px;
+    }
+    
+    .column-text p {
+        text-align: left;
+       
+    }
+
+    /* ====== VIDEOS ===== */
+    .video-container {
+        display:flex;
+        flex-direction: column;
+        width:90%;
+        justify-content: space-between;
+        margin:0 auto;
+      
+        text-align: center;
+        align-items: center;
+        margin-top:25px;
+    }
+    
+    .video-container video {
+        width:90%;
+        margin-bottom: 20px;
+    
+    }
+
+    iframe {
+        width: 90%;
+    }
+
+    .vimeo {
+        width:90%;
+    }
+
+
+    
+    .video-title {
+        margin-top:25px;
+        text-align: center;
+    }
+    /* ====== GAlERÍA ==== */
+.container-galeria {
+    width:90%;
+    margin: 0 auto;
+    text-align: center;
+
+}
+
+.row {
+    display:flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+  
+    margin-bottom:50px;
+    
+}
+
+.row img {
+    width: 40%;
+   margin-bottom: 20px;
+   
+    
+
+}
+
+.galeria-title {
+    text-align: center;
+    margin-top:50px;
+    margin-bottom:50px;
+}
+    
+}
